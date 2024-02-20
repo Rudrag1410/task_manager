@@ -1,0 +1,64 @@
+$white: #fff;
+
+$purple: #635FC7;
+$light_purple: #A8A4FF;
+
+$red: #EA5555;
+$light_red: #FF9898;
+
+$secondary: #635FC71A;
+$light_secondary: #635FC740;
+
+
+
+.root {
+  width: 255px;
+  height: 48px;
+  padding: 15px 61.5px;
+
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+
+
+
+  .primary,
+  .secondary,
+  .destructive {
+    & {
+      @extend .root;
+    }
+  }
+}
+
+.primary {
+  color: $white;
+  background: $purple;
+
+  &:hover {
+    background: $light_purple;
+  }
+}
+
+.secondary {
+  color: $purple;
+  background: $secondary;
+
+  &:hover {
+    background: $light_secondary;
+  }
+}
+
+.destructive {
+  color: $white;
+  background: $red;
+
+  &:hover {
+    background: $light_red;
+  }
+}

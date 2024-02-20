@@ -1,0 +1,39 @@
+$black_color: #000112;
+$bold_weight: 700;
+
+.extra_Large_heading {
+   font-weight: $bold_weight;
+   font-size: 24px;
+   line-height: 1.26;
+   color: $black_color;
+}
+
+.large_heading {
+   font-weight: $bold_weight;
+   font-size: 18px;
+   line-height: 1.26;
+   color: $black_color;
+}
+
+.medium_heading {
+   font-weight: $bold_weight;
+   font-size: 15px;
+   line-height: 1.25;
+   color: $black_color;
+}
+
+.small_heading {
+   font-weight: $bold_weight;
+   font-size: 12px;
+   line-height: 1.26;
+   letter-spacing: 0.2em;
+   color: $black_color;
+}
+
+.normal_paragraph {
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 1.77;
+   color: $black_color;
+
+}
